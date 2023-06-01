@@ -1,0 +1,4255 @@
+{
+	"id": 0,
+	"name": "@aya/controls",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 322,
+			"name": "AyaDetailToolbarComponent",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Toolbar with added detail."
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 326,
+					"name": "goBack",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Event emitted when back button is pressed."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Output"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "toolbar/toolbar.component.ts",
+							"line": 18,
+							"character": 14,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/toolbar/toolbar.component.ts#L18"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "void"
+							}
+						],
+						"name": "EventEmitter",
+						"qualifiedName": "EventEmitter",
+						"package": "@angular/core"
+					},
+					"defaultValue": "..."
+				},
+				{
+					"id": 327,
+					"name": "showBackButton",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [],
+						"blockTags": [
+							{
+								"tag": "@Input",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Whether to show the back button."
+									}
+								]
+							},
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "toolbar/toolbar.component.ts",
+							"line": 25,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/toolbar/toolbar.component.ts#L25"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"defaultValue": "true"
+				},
+				{
+					"id": 329,
+					"name": "template",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Template reference to show below the toolbar."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "toolbar/toolbar.component.ts",
+							"line": 39,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/toolbar/toolbar.component.ts#L39"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "unknown"
+									}
+								],
+								"name": "TemplateRef",
+								"qualifiedName": "TemplateRef",
+								"package": "@angular/core"
+							}
+						]
+					}
+				},
+				{
+					"id": 330,
+					"name": "templateData",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Template data."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "toolbar/toolbar.component.ts",
+							"line": 46,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/toolbar/toolbar.component.ts#L46"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "unknown"
+					}
+				},
+				{
+					"id": 328,
+					"name": "title",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Optional title to show in the toolbar."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "toolbar/toolbar.component.ts",
+							"line": 32,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/toolbar/toolbar.component.ts#L32"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"defaultValue": "''"
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						326,
+						327,
+						329,
+						330,
+						328
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "toolbar/toolbar.component.ts",
+					"line": 12,
+					"character": 13,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/toolbar/toolbar.component.ts#L12"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "AyaHeaderComponent",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Header for the top of the page. Contains title and optional menu and back button."
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 6,
+					"name": "menuOpened",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Emits when the menu icon is interacted with."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Output"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "header/header.component.ts",
+							"line": 23,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/header/header.component.ts#L23"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "void"
+							}
+						],
+						"name": "EventEmitter",
+						"qualifiedName": "EventEmitter",
+						"package": "@angular/core"
+					},
+					"defaultValue": "..."
+				},
+				{
+					"id": 9,
+					"name": "showBackButton",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Whether to show the back button when the user navigates."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "header/header.component.ts",
+							"line": 47,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/header/header.component.ts#L47"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"defaultValue": "false"
+				},
+				{
+					"id": 8,
+					"name": "showMenuOnMobile",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Whether to show the menu icon if mobile is detected."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "header/header.component.ts",
+							"line": 39,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/header/header.component.ts#L39"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"defaultValue": "false"
+				},
+				{
+					"id": 7,
+					"name": "title",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Text to display as title."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "header/header.component.ts",
+							"line": 31,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/header/header.component.ts#L31"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"defaultValue": "''"
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						6,
+						9,
+						8,
+						7
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "header/header.component.ts",
+					"line": 16,
+					"character": 13,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/header/header.component.ts#L16"
+				}
+			],
+			"implementedTypes": [
+				{
+					"type": "reference",
+					"name": "OnInit",
+					"qualifiedName": "OnInit",
+					"package": "@angular/core"
+				}
+			]
+		},
+		{
+			"id": 20,
+			"name": "AyaHeaderModule",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "import { AyaHeaderModule } from '@aya/controls/header';"
+					}
+				]
+			},
+			"sources": [
+				{
+					"fileName": "header/header.module.ts",
+					"line": 14,
+					"character": 13,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/header/header.module.ts#L14"
+				}
+			]
+		},
+		{
+			"id": 23,
+			"name": "AyaPopoverComponent",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Popover component."
+					}
+				]
+			},
+			"sources": [
+				{
+					"fileName": "popover/popover.component.ts",
+					"line": 11,
+					"character": 13,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.component.ts#L11"
+				}
+			]
+		},
+		{
+			"id": 26,
+			"name": "AyaPopoverDirective",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Trigger for opening the popover element, allows optional configuration."
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 36,
+					"name": "closeOnClickOutside",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Whether to allow popover to close when user clicks outside of it. Defaults to false."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "popover/popover.directive.ts",
+							"line": 32,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.directive.ts#L32"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"defaultValue": "false"
+				},
+				{
+					"id": 37,
+					"name": "horizontalAdjustPx",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Horizontal adjustment in pixels from source element. Popover position defaults to left of filter icon."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "popover/popover.directive.ts",
+							"line": 39,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.directive.ts#L39"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"defaultValue": "-250"
+				},
+				{
+					"id": 35,
+					"name": "popoverTrigger",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Template reference element for popover content."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "popover/popover.directive.ts",
+							"line": 25,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.directive.ts#L25"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "object"
+							}
+						],
+						"name": "TemplateRef",
+						"qualifiedName": "TemplateRef",
+						"package": "@angular/core"
+					}
+				},
+				{
+					"id": 38,
+					"name": "verticalAdjustPx",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Vertical adjustment in pixels from source element. Popover position defaults to left of filter icon."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "popover/popover.directive.ts",
+							"line": 46,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.directive.ts#L46"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"defaultValue": "120"
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						36,
+						37,
+						35,
+						38
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "popover/popover.directive.ts",
+					"line": 17,
+					"character": 13,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.directive.ts#L17"
+				}
+			],
+			"implementedTypes": [
+				{
+					"type": "reference",
+					"name": "OnInit",
+					"qualifiedName": "OnInit",
+					"package": "@angular/core"
+				},
+				{
+					"type": "reference",
+					"name": "OnDestroy",
+					"qualifiedName": "OnDestroy",
+					"package": "@angular/core"
+				}
+			]
+		},
+		{
+			"id": 61,
+			"name": "AyaPopoverModule",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "import { AyaHeaderModule } from '@aya/controls/header';"
+					}
+				]
+			},
+			"sources": [
+				{
+					"fileName": "popover/popover.module.ts",
+					"line": 17,
+					"character": 13,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.module.ts#L17"
+				}
+			]
+		},
+		{
+			"id": 64,
+			"name": "AyaPopoverService",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Popover service, manages state (open/closed) of popover and allows to be set manually."
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 68,
+					"name": "getState",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "popover/popover.service.ts",
+							"line": 16,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.service.ts#L16"
+						}
+					],
+					"signatures": [
+						{
+							"id": 69,
+							"name": "getState",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Returns the current state of the popover (open or closed)."
+									}
+								]
+							},
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								],
+								"name": "Observable",
+								"qualifiedName": "Observable",
+								"package": "rxjs"
+							}
+						}
+					]
+				},
+				{
+					"id": 70,
+					"name": "setState",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "popover/popover.service.ts",
+							"line": 23,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.service.ts#L23"
+						}
+					],
+					"signatures": [
+						{
+							"id": 71,
+							"name": "setState",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Sets the state of the popover."
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 72,
+									"name": "value",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Methods",
+					"children": [
+						68,
+						70
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "popover/popover.service.ts",
+					"line": 10,
+					"character": 13,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.service.ts#L10"
+				}
+			]
+		},
+		{
+			"id": 73,
+			"name": "AyaSideNavigationComponent",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Left navigation bar that allows menus and sub-menu items to be added for navigation, as well as the logo and version. Optional custom content can be added below the menu items."
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 81,
+					"name": "closeSidebar",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Emits when the user clicks the close menu button that is shown on mobile."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Output"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "side-navigation/side-navigation.component.ts",
+							"line": 32,
+							"character": 14,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/side-navigation.component.ts#L32"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "EventEmitter",
+						"qualifiedName": "EventEmitter",
+						"package": "@angular/core"
+					},
+					"defaultValue": "..."
+				},
+				{
+					"id": 82,
+					"name": "menuList",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Empty array by default. Add items to display as navigation."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "side-navigation/side-navigation.component.ts",
+							"line": 39,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/side-navigation.component.ts#L39"
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"id": 116,
+							"name": "AyaMenuItem"
+						}
+					},
+					"defaultValue": "[]"
+				},
+				{
+					"id": 87,
+					"name": "openMenu",
+					"kind": 262144,
+					"kindString": "Accessor",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "side-navigation/side-navigation.component.ts",
+							"line": 50,
+							"character": 17,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/side-navigation.component.ts#L50"
+						}
+					],
+					"setSignature": {
+						"id": 88,
+						"name": "openMenu",
+						"kind": 1048576,
+						"kindString": "Set signature",
+						"flags": {},
+						"comment": {
+							"summary": [
+								{
+									"kind": "text",
+									"text": "Sets whether the menu is open, this is so an external action can open or close the menu."
+								}
+							],
+							"blockTags": [
+								{
+									"tag": "@decorator",
+									"content": [
+										{
+											"kind": "text",
+											"text": "Input"
+										}
+									]
+								}
+							]
+						},
+						"parameters": [
+							{
+								"id": 89,
+								"name": "open",
+								"kind": 32768,
+								"kindString": "Parameter",
+								"flags": {},
+								"type": {
+									"type": "intrinsic",
+									"name": "boolean"
+								}
+							}
+						],
+						"type": {
+							"type": "intrinsic",
+							"name": "void"
+						}
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						81,
+						82
+					]
+				},
+				{
+					"title": "Accessors",
+					"children": [
+						87
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "side-navigation/side-navigation.component.ts",
+					"line": 24,
+					"character": 13,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/side-navigation.component.ts#L24"
+				}
+			],
+			"implementedTypes": [
+				{
+					"type": "reference",
+					"name": "OnInit",
+					"qualifiedName": "OnInit",
+					"package": "@angular/core"
+				}
+			]
+		},
+		{
+			"id": 113,
+			"name": "AyaSideNavigationModule",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "import { AyaSideNavigationModule } from '@aya/controls/side-navigation';"
+					}
+				]
+			},
+			"sources": [
+				{
+					"fileName": "side-navigation/side-navigation.module.ts",
+					"line": 27,
+					"character": 13,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/side-navigation.module.ts#L27"
+				}
+			]
+		},
+		{
+			"id": 163,
+			"name": "AyaTableColumnDirective",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Table column configuration."
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 176,
+					"name": "currencyCode",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Currency code, defaults to USD."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table-column.directive.ts",
+							"line": 87,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L87"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"defaultValue": "'USD'"
+				},
+				{
+					"id": 177,
+					"name": "currencyDisplay",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Display symbol next to currency."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table-column.directive.ts",
+							"line": 94,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L94"
+						}
+					],
+					"type": {
+						"type": "literal",
+						"value": "Symbol"
+					}
+				},
+				{
+					"id": 174,
+					"name": "dateFormat",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "What format the date should be, if field is a date. Defaults to 'MM/dd/yyyy'."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table-column.directive.ts",
+							"line": 73,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L73"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"defaultValue": "'MM/dd/yyyy'"
+				},
+				{
+					"id": 166,
+					"name": "field",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "The name of the field."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table-column.directive.ts",
+							"line": 17,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L17"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 167,
+					"name": "filterField",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Name of the field to filter."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table-column.directive.ts",
+							"line": 24,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L24"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 181,
+					"name": "filterTemplate",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Template reference for filter."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table-column.directive.ts",
+							"line": 122,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L122"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "TemplateRef",
+						"qualifiedName": "TemplateRef",
+						"package": "@angular/core"
+					}
+				},
+				{
+					"id": 173,
+					"name": "filterType",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "The type of filter."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table-column.directive.ts",
+							"line": 66,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L66"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"id": 162,
+						"name": "TableFilterType"
+					}
+				},
+				{
+					"id": 169,
+					"name": "format",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Format for column, defaults to text."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table-column.directive.ts",
+							"line": 38,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L38"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"defaultValue": "'text'"
+				},
+				{
+					"id": 180,
+					"name": "hidden",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Whether column is hidden."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table-column.directive.ts",
+							"line": 115,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L115"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"defaultValue": "false"
+				},
+				{
+					"id": 175,
+					"name": "isUtc",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Whether date is UTC."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table-column.directive.ts",
+							"line": 80,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L80"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"defaultValue": "false"
+				},
+				{
+					"id": 171,
+					"name": "needClearIcon",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Whether clear icon is needed."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table-column.directive.ts",
+							"line": 52,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L52"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"defaultValue": "true"
+				},
+				{
+					"id": 170,
+					"name": "needColumnSorting",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Whether column should allow sorting."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table-column.directive.ts",
+							"line": 45,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L45"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"defaultValue": "true"
+				},
+				{
+					"id": 172,
+					"name": "needCustomCell",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Whether it is a custom cell."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table-column.directive.ts",
+							"line": 59,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L59"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"defaultValue": "false"
+				},
+				{
+					"id": 178,
+					"name": "percentDigitInfo",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Precision decimal value, defaults to 1.2."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table-column.directive.ts",
+							"line": 101,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L101"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"defaultValue": "'1.2'"
+				},
+				{
+					"id": 179,
+					"name": "template",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Template reference."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table-column.directive.ts",
+							"line": 108,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L108"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "TemplateRef",
+						"qualifiedName": "TemplateRef",
+						"package": "@angular/core"
+					}
+				},
+				{
+					"id": 182,
+					"name": "tipTemplate",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Template reference for tip."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table-column.directive.ts",
+							"line": 129,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L129"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "TemplateRef",
+						"qualifiedName": "TemplateRef",
+						"package": "@angular/core"
+					}
+				},
+				{
+					"id": 168,
+					"name": "title",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Title of the column."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table-column.directive.ts",
+							"line": 31,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L31"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 183,
+					"name": "tooltipTrigger",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Template reference for tooltip trigger."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table-column.directive.ts",
+							"line": 136,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L136"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "TemplateRef",
+						"qualifiedName": "TemplateRef",
+						"package": "@angular/core"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						176,
+						177,
+						174,
+						166,
+						167,
+						181,
+						173,
+						169,
+						180,
+						175,
+						171,
+						170,
+						172,
+						178,
+						179,
+						182,
+						168,
+						183
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "table/table-column.directive.ts",
+					"line": 11,
+					"character": 13,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L11"
+				}
+			]
+		},
+		{
+			"id": 185,
+			"name": "AyaTableComponent",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Table"
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 205,
+					"name": "columns",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Column names."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table.component.ts",
+							"line": 109,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L109"
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "intrinsic",
+							"name": "string"
+						}
+					},
+					"defaultValue": "[]"
+				},
+				{
+					"id": 204,
+					"name": "header",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Template reference for toolbar header."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table.component.ts",
+							"line": 102,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L102"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "any"
+							}
+						],
+						"name": "TemplateRef",
+						"qualifiedName": "TemplateRef",
+						"package": "@angular/core"
+					}
+				},
+				{
+					"id": 198,
+					"name": "needData",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Needed data."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Output"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table.component.ts",
+							"line": 60,
+							"character": 14,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L60"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "reference",
+								"id": 130,
+								"name": "FetchArgs"
+							}
+						],
+						"name": "EventEmitter",
+						"qualifiedName": "EventEmitter",
+						"package": "@angular/core"
+					},
+					"defaultValue": "..."
+				},
+				{
+					"id": 201,
+					"name": "needRefresh",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Whether it needs refreshing."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table.component.ts",
+							"line": 81,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L81"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"defaultValue": "true"
+				},
+				{
+					"id": 200,
+					"name": "needSorting",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Whether it needs sorting."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table.component.ts",
+							"line": 74,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L74"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"defaultValue": "false"
+				},
+				{
+					"id": 199,
+					"name": "rowExpansionDetail",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Template reference for row expansion detail."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table.component.ts",
+							"line": 67,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L67"
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "TemplateRef",
+								"qualifiedName": "TemplateRef",
+								"package": "@angular/core"
+							}
+						]
+					},
+					"defaultValue": "undefined"
+				},
+				{
+					"id": 202,
+					"name": "showClearFilterButton",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Whether to show the clear filter button."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table.component.ts",
+							"line": 88,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L88"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					},
+					"defaultValue": "true"
+				},
+				{
+					"id": 203,
+					"name": "toolbarTitle",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Optional title for toolbar."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/table.component.ts",
+							"line": 95,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L95"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"defaultValue": "''"
+				},
+				{
+					"id": 224,
+					"name": "args",
+					"kind": 262144,
+					"kindString": "Accessor",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "table/table.component.ts",
+							"line": 194,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L194"
+						}
+					],
+					"setSignature": {
+						"id": 226,
+						"name": "args",
+						"kind": 1048576,
+						"kindString": "Set signature",
+						"flags": {},
+						"comment": {
+							"summary": [
+								{
+									"kind": "text",
+									"text": "Item fetch arguments."
+								}
+							],
+							"blockTags": [
+								{
+									"tag": "@decorator",
+									"content": [
+										{
+											"kind": "text",
+											"text": "Input"
+										}
+									]
+								}
+							]
+						},
+						"parameters": [
+							{
+								"id": 227,
+								"name": "value",
+								"kind": 32768,
+								"kindString": "Parameter",
+								"flags": {},
+								"type": {
+									"type": "reference",
+									"id": 130,
+									"name": "FetchArgs"
+								}
+							}
+						],
+						"type": {
+							"type": "intrinsic",
+							"name": "void"
+						}
+					}
+				},
+				{
+					"id": 220,
+					"name": "dataSource",
+					"kind": 262144,
+					"kindString": "Accessor",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "table/table.component.ts",
+							"line": 181,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L181"
+						}
+					],
+					"setSignature": {
+						"id": 222,
+						"name": "dataSource",
+						"kind": 1048576,
+						"kindString": "Set signature",
+						"flags": {},
+						"comment": {
+							"summary": [
+								{
+									"kind": "text",
+									"text": "Paginated source of data."
+								}
+							],
+							"blockTags": [
+								{
+									"tag": "@decorator",
+									"content": [
+										{
+											"kind": "text",
+											"text": "Input"
+										}
+									]
+								}
+							]
+						},
+						"parameters": [
+							{
+								"id": 223,
+								"name": "data",
+								"kind": 32768,
+								"kindString": "Parameter",
+								"flags": {},
+								"type": {
+									"type": "reference",
+									"id": 149,
+									"typeArguments": [
+										{
+											"type": "array",
+											"elementType": {
+												"type": "reference",
+												"name": "T"
+											}
+										}
+									],
+									"name": "PagingToken"
+								}
+							}
+						],
+						"type": {
+							"type": "intrinsic",
+							"name": "void"
+						}
+					}
+				},
+				{
+					"id": 208,
+					"name": "pageSize",
+					"kind": 262144,
+					"kindString": "Accessor",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "table/table.component.ts",
+							"line": 123,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L123"
+						}
+					],
+					"setSignature": {
+						"id": 210,
+						"name": "pageSize",
+						"kind": 1048576,
+						"kindString": "Set signature",
+						"flags": {},
+						"comment": {
+							"summary": [
+								{
+									"kind": "text",
+									"text": "Page size for items in table."
+								}
+							],
+							"blockTags": [
+								{
+									"tag": "@decorator",
+									"content": [
+										{
+											"kind": "text",
+											"text": "Input"
+										}
+									]
+								}
+							]
+						},
+						"parameters": [
+							{
+								"id": 211,
+								"name": "pageSize",
+								"kind": 32768,
+								"kindString": "Parameter",
+								"flags": {},
+								"type": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							}
+						],
+						"type": {
+							"type": "intrinsic",
+							"name": "void"
+						}
+					}
+				},
+				{
+					"id": 212,
+					"name": "skip",
+					"kind": 262144,
+					"kindString": "Accessor",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "table/table.component.ts",
+							"line": 141,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L141"
+						}
+					],
+					"setSignature": {
+						"id": 214,
+						"name": "skip",
+						"kind": 1048576,
+						"kindString": "Set signature",
+						"flags": {},
+						"comment": {
+							"summary": [
+								{
+									"kind": "text",
+									"text": "How many items to skip."
+								}
+							],
+							"blockTags": [
+								{
+									"tag": "@decorator",
+									"content": [
+										{
+											"kind": "text",
+											"text": "Input"
+										}
+									]
+								}
+							]
+						},
+						"parameters": [
+							{
+								"id": 215,
+								"name": "skip",
+								"kind": 32768,
+								"kindString": "Parameter",
+								"flags": {},
+								"type": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							}
+						],
+						"type": {
+							"type": "intrinsic",
+							"name": "void"
+						}
+					}
+				},
+				{
+					"id": 216,
+					"name": "sort",
+					"kind": 262144,
+					"kindString": "Accessor",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "table/table.component.ts",
+							"line": 159,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L159"
+						}
+					],
+					"setSignature": {
+						"id": 218,
+						"name": "sort",
+						"kind": 1048576,
+						"kindString": "Set signature",
+						"flags": {},
+						"comment": {
+							"summary": [
+								{
+									"kind": "text",
+									"text": "Column(s) to sort on."
+								}
+							],
+							"blockTags": [
+								{
+									"tag": "@decorator",
+									"content": [
+										{
+											"kind": "text",
+											"text": "Input"
+										}
+									]
+								}
+							]
+						},
+						"parameters": [
+							{
+								"id": 219,
+								"name": "gridSort",
+								"kind": 32768,
+								"kindString": "Parameter",
+								"flags": {},
+								"type": {
+									"type": "reference",
+									"name": "Sort",
+									"qualifiedName": "Sort",
+									"package": "@angular/material"
+								}
+							}
+						],
+						"type": {
+							"type": "intrinsic",
+							"name": "void"
+						}
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						205,
+						204,
+						198,
+						201,
+						200,
+						199,
+						202,
+						203
+					]
+				},
+				{
+					"title": "Accessors",
+					"children": [
+						224,
+						220,
+						208,
+						212,
+						216
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "table/table.component.ts",
+					"line": 44,
+					"character": 13,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L44"
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 318,
+					"name": "T",
+					"kind": 131072,
+					"kindString": "Type parameter",
+					"flags": {}
+				}
+			],
+			"implementedTypes": [
+				{
+					"type": "reference",
+					"name": "AfterContentInit",
+					"qualifiedName": "AfterContentInit",
+					"package": "@angular/core"
+				},
+				{
+					"type": "reference",
+					"name": "OnInit",
+					"qualifiedName": "OnInit",
+					"package": "@angular/core"
+				}
+			]
+		},
+		{
+			"id": 319,
+			"name": "AyaTableModule",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "import { AyaTableModule } from '@aya/controls/table';"
+					}
+				]
+			},
+			"sources": [
+				{
+					"fileName": "table/table.module.ts",
+					"line": 40,
+					"character": 13,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.module.ts#L40"
+				}
+			]
+		},
+		{
+			"id": 334,
+			"name": "AyaToolbarModule",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "import { AyaToolbarModule } from '@aya/controls/toolbar';"
+					}
+				]
+			},
+			"sources": [
+				{
+					"fileName": "toolbar/toolbar.module.ts",
+					"line": 15,
+					"character": 13,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/toolbar/toolbar.module.ts#L15"
+				}
+			]
+		},
+		{
+			"id": 337,
+			"name": "AyaTooltipComponent",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Tooltip wrapper component."
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 340,
+					"name": "text",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Text to display in the tooltip."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "tooltip/tooltip.component.ts",
+							"line": 26,
+							"character": 13,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/tooltip/tooltip.component.ts#L26"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"defaultValue": "''"
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						340
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "tooltip/tooltip.component.ts",
+					"line": 20,
+					"character": 13,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/tooltip/tooltip.component.ts#L20"
+				}
+			]
+		},
+		{
+			"id": 341,
+			"name": "AyaTooltipDirective",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Tooltip trigger."
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 353,
+					"name": "text",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Text to display in the tooltip."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@decorator",
+								"content": [
+									{
+										"kind": "text",
+										"text": "Input"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "tooltip/tooltip.directive.ts",
+							"line": 22,
+							"character": 29,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/tooltip/tooltip.directive.ts#L22"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					},
+					"defaultValue": "''"
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						353
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "tooltip/tooltip.directive.ts",
+					"line": 13,
+					"character": 13,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/tooltip/tooltip.directive.ts#L13"
+				}
+			],
+			"implementedTypes": [
+				{
+					"type": "reference",
+					"name": "OnInit",
+					"qualifiedName": "OnInit",
+					"package": "@angular/core"
+				}
+			]
+		},
+		{
+			"id": 367,
+			"name": "AyaTooltipModule",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "import { AyaTooltipModule } from '@aya/controls/tooltip';"
+					}
+				]
+			},
+			"sources": [
+				{
+					"fileName": "tooltip/tooltip.module.ts",
+					"line": 16,
+					"character": 13,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/tooltip/tooltip.module.ts#L16"
+				}
+			]
+		},
+		{
+			"id": 116,
+			"name": "AyaMenuItem",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Menu item configuration."
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 123,
+					"name": "expanded",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Whether the menu item should be initially expanded if it has children items."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "side-navigation/models/menu-item.model.ts",
+							"line": 34,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L34"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 119,
+					"name": "externalPath",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "External URL to route to (will open ina new tab)."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "side-navigation/models/menu-item.model.ts",
+							"line": 18,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L18"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 121,
+					"name": "icon",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Name of icon to use with mat-icon."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "side-navigation/models/menu-item.model.ts",
+							"line": 26,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L26"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 122,
+					"name": "navigateToParentOnClick",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Whether to navigate to the parent instead of the child item."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "side-navigation/models/menu-item.model.ts",
+							"line": 30,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L30"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 118,
+					"name": "path",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "URL path to route for. For example \"/example\"."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "side-navigation/models/menu-item.model.ts",
+							"line": 14,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L14"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 124,
+					"name": "subItems",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Sub navigational menu items."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "side-navigation/models/menu-item.model.ts",
+							"line": 38,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L38"
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"id": 125,
+							"name": "AyaSubMenuItem"
+						}
+					}
+				},
+				{
+					"id": 120,
+					"name": "svgIcon",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "SVG path for icon."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "side-navigation/models/menu-item.model.ts",
+							"line": 22,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L22"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 117,
+					"name": "title",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Name of the link or section."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "side-navigation/models/menu-item.model.ts",
+							"line": 10,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L10"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						123,
+						119,
+						121,
+						122,
+						118,
+						124,
+						120,
+						117
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "side-navigation/models/menu-item.model.ts",
+					"line": 6,
+					"character": 17,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L6"
+				}
+			]
+		},
+		{
+			"id": 125,
+			"name": "AyaSubMenuItem",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Side navigation sub menu item configuration."
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 129,
+					"name": "icon",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Name of icon to use with mat-icon."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "side-navigation/models/sub-menu.model.ts",
+							"line": 20,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/sub-menu.model.ts#L20"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 127,
+					"name": "path",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "URL path to route for. For example \"/example\"."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "side-navigation/models/sub-menu.model.ts",
+							"line": 12,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/sub-menu.model.ts#L12"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 128,
+					"name": "svgIcon",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "SVG path for icon."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "side-navigation/models/sub-menu.model.ts",
+							"line": 16,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/sub-menu.model.ts#L16"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 126,
+					"name": "title",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Name of the link or section."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "side-navigation/models/sub-menu.model.ts",
+							"line": 8,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/sub-menu.model.ts#L8"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						129,
+						127,
+						128,
+						126
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "side-navigation/models/sub-menu.model.ts",
+					"line": 4,
+					"character": 17,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/sub-menu.model.ts#L4"
+				}
+			]
+		},
+		{
+			"id": 130,
+			"name": "FetchArgs",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Fetch arguments for retrieving paginated data."
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 131,
+					"name": "filter",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Fields to filter by."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/models/fetch-args.model.ts",
+							"line": 8,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L8"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				},
+				{
+					"id": 139,
+					"name": "pageSize",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Number of items to return per page."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/models/fetch-args.model.ts",
+							"line": 28,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L28"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 132,
+					"name": "queryFilter",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Query filter."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/models/fetch-args.model.ts",
+							"line": 13,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L13"
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "intrinsic",
+							"name": "any"
+						}
+					}
+				},
+				{
+					"id": 138,
+					"name": "skip",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Number of items to skip."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/models/fetch-args.model.ts",
+							"line": 23,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L23"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 133,
+					"name": "sort",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Fields to sort by and whether ascending or descending."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/models/fetch-args.model.ts",
+							"line": 18,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L18"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 134,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 136,
+									"name": "dir",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "table/models/fetch-args.model.ts",
+											"line": 18,
+											"character": 28,
+											"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L18"
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "literal",
+												"value": "desc"
+											},
+											{
+												"type": "literal",
+												"value": "asc"
+											}
+										]
+									}
+								},
+								{
+									"id": 135,
+									"name": "field",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "table/models/fetch-args.model.ts",
+											"line": 18,
+											"character": 13,
+											"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L18"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 137,
+									"name": "force",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "table/models/fetch-args.model.ts",
+											"line": 18,
+											"character": 50,
+											"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L18"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										136,
+										135,
+										137
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "table/models/fetch-args.model.ts",
+									"line": 18,
+									"character": 11,
+									"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L18"
+								}
+							]
+						}
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						131,
+						139,
+						132,
+						138,
+						133
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "table/models/fetch-args.model.ts",
+					"line": 4,
+					"character": 17,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L4"
+				}
+			]
+		},
+		{
+			"id": 140,
+			"name": "FetchArgs2",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Fetch arguments for retrieving paginated data."
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 145,
+					"name": "filter",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Fields to filter by."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/models/fetch-args.model.ts",
+							"line": 8,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L8"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.filter"
+					}
+				},
+				{
+					"id": 148,
+					"name": "pageSize",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Number of items to return per page."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/models/fetch-args.model.ts",
+							"line": 28,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L28"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.pageSize"
+					}
+				},
+				{
+					"id": 146,
+					"name": "queryFilter",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Query filter."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/models/fetch-args.model.ts",
+							"line": 13,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L13"
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "intrinsic",
+							"name": "any"
+						}
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.queryFilter"
+					}
+				},
+				{
+					"id": 147,
+					"name": "skip",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Number of items to skip."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/models/fetch-args.model.ts",
+							"line": 23,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L23"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"name": "Omit.skip"
+					}
+				},
+				{
+					"id": 141,
+					"name": "sort",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isOptional": true
+					},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Fields to sort by and whether ascending or descending."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/models/fetch-args.model.ts",
+							"line": 38,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L38"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 142,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 144,
+									"name": "dir",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "table/models/fetch-args.model.ts",
+											"line": 38,
+											"character": 28,
+											"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L38"
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "literal",
+												"value": "asc"
+											},
+											{
+												"type": "literal",
+												"value": "descending"
+											}
+										]
+									}
+								},
+								{
+									"id": 143,
+									"name": "field",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "table/models/fetch-args.model.ts",
+											"line": 38,
+											"character": 13,
+											"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L38"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										144,
+										143
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "table/models/fetch-args.model.ts",
+									"line": 38,
+									"character": 11,
+									"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L38"
+								}
+							]
+						}
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						145,
+						148,
+						146,
+						147,
+						141
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "table/models/fetch-args.model.ts",
+					"line": 34,
+					"character": 17,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L34"
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 130,
+							"name": "FetchArgs"
+						},
+						{
+							"type": "literal",
+							"value": "sort"
+						}
+					],
+					"name": "Omit",
+					"qualifiedName": "Omit",
+					"package": "typescript"
+				}
+			]
+		},
+		{
+			"id": 149,
+			"name": "PagingToken",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Pagination wrapper for data that contains total and filters."
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 151,
+					"name": "data",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Data returned."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/models/paging-token.model.ts",
+							"line": 13,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L13"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"id": 153,
+						"name": "T"
+					}
+				},
+				{
+					"id": 152,
+					"name": "filtered",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Number filtered."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/models/paging-token.model.ts",
+							"line": 18,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L18"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 150,
+					"name": "total",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Total number of items."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/models/paging-token.model.ts",
+							"line": 8,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L8"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						151,
+						152,
+						150
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "table/models/paging-token.model.ts",
+					"line": 4,
+					"character": 17,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L4"
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 153,
+					"name": "T",
+					"kind": 131072,
+					"kindString": "Type parameter",
+					"flags": {}
+				}
+			],
+			"extendedBy": [
+				{
+					"type": "reference",
+					"id": 154,
+					"name": "PagingTokenFixed"
+				}
+			]
+		},
+		{
+			"id": 154,
+			"name": "PagingTokenFixed",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Pagination wrapper for data that contains total and filters."
+					}
+				]
+			},
+			"children": [
+				{
+					"id": 157,
+					"name": "data",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Data returned."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/models/paging-token.model.ts",
+							"line": 13,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L13"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"id": 158,
+						"name": "T"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 151,
+						"name": "PagingToken.data"
+					}
+				},
+				{
+					"id": 155,
+					"name": "filtered",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Number filtered."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/models/paging-token.model.ts",
+							"line": 28,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L28"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"overwrites": {
+						"type": "reference",
+						"id": 152,
+						"name": "PagingToken.filtered"
+					}
+				},
+				{
+					"id": 156,
+					"name": "total",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Total number of items."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "table/models/paging-token.model.ts",
+							"line": 8,
+							"character": 4,
+							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L8"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"inheritedFrom": {
+						"type": "reference",
+						"id": 150,
+						"name": "PagingToken.total"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"children": [
+						157,
+						155,
+						156
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "table/models/paging-token.model.ts",
+					"line": 24,
+					"character": 17,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L24"
+				}
+			],
+			"typeParameters": [
+				{
+					"id": 158,
+					"name": "T",
+					"kind": 131072,
+					"kindString": "Type parameter",
+					"flags": {}
+				}
+			],
+			"extendedTypes": [
+				{
+					"type": "reference",
+					"id": 149,
+					"typeArguments": [
+						{
+							"type": "reference",
+							"id": 158,
+							"name": "T"
+						}
+					],
+					"name": "PagingToken"
+				}
+			]
+		},
+		{
+			"id": 162,
+			"name": "TableFilterType",
+			"kind": 4194304,
+			"kindString": "Type alias",
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "Filter type options: 'text' | 'date' | 'daterange' | 'popover'."
+					}
+				]
+			},
+			"sources": [
+				{
+					"fileName": "table/models/table-filter-type.model.ts",
+					"line": 4,
+					"character": 12,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/table-filter-type.model.ts#L4"
+				}
+			],
+			"type": {
+				"type": "union",
+				"types": [
+					{
+						"type": "literal",
+						"value": "text"
+					},
+					{
+						"type": "literal",
+						"value": "date"
+					},
+					{
+						"type": "literal",
+						"value": "daterange"
+					},
+					{
+						"type": "literal",
+						"value": "popover"
+					}
+				]
+			}
+		},
+		{
+			"id": 159,
+			"name": "emptyPagingToken",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "table/models/paging-token.model.ts",
+					"line": 34,
+					"character": 13,
+					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L34"
+				}
+			],
+			"signatures": [
+				{
+					"id": 160,
+					"name": "emptyPagingToken",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Empty pagination used for initialization."
+							}
+						]
+					},
+					"typeParameter": [
+						{
+							"id": 161,
+							"name": "T",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"id": 154,
+						"typeArguments": [
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"id": 161,
+									"name": "T"
+								}
+							}
+						],
+						"name": "PagingTokenFixed"
+					}
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Classes",
+			"children": [
+				322,
+				1,
+				20,
+				23,
+				26,
+				61,
+				64,
+				73,
+				113,
+				163,
+				185,
+				319,
+				334,
+				337,
+				341,
+				367
+			]
+		},
+		{
+			"title": "Interfaces",
+			"children": [
+				116,
+				125,
+				130,
+				140,
+				149,
+				154
+			]
+		},
+		{
+			"title": "Type Aliases",
+			"children": [
+				162
+			]
+		},
+		{
+			"title": "Functions",
+			"children": [
+				159
+			]
+		}
+	],
+	"sources": [
+		{
+			"fileName": "src/docs-entry.ts",
+			"line": 1,
+			"character": 0,
+			"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/src/docs-entry.ts#L1"
+		}
+	]
+}
