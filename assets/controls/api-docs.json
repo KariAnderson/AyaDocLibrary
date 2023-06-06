@@ -51,7 +51,7 @@
 							"fileName": "toolbar/toolbar.component.ts",
 							"line": 18,
 							"character": 14,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/toolbar/toolbar.component.ts#L18"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/toolbar/toolbar.component.ts#L18"
 						}
 					],
 					"type": {
@@ -102,7 +102,7 @@
 							"fileName": "toolbar/toolbar.component.ts",
 							"line": 25,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/toolbar/toolbar.component.ts#L25"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/toolbar/toolbar.component.ts#L25"
 						}
 					],
 					"type": {
@@ -141,22 +141,22 @@
 							"fileName": "toolbar/toolbar.component.ts",
 							"line": 39,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/toolbar/toolbar.component.ts#L39"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/toolbar/toolbar.component.ts#L39"
 						}
 					],
 					"type": {
 						"type": "union",
 						"types": [
 							{
-								"type": "intrinsic",
-								"name": "undefined"
+								"type": "literal",
+								"value": null
 							},
 							{
 								"type": "reference",
 								"typeArguments": [
 									{
 										"type": "intrinsic",
-										"name": "unknown"
+										"name": "any"
 									}
 								],
 								"name": "TemplateRef",
@@ -196,12 +196,12 @@
 							"fileName": "toolbar/toolbar.component.ts",
 							"line": 46,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/toolbar/toolbar.component.ts#L46"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/toolbar/toolbar.component.ts#L46"
 						}
 					],
 					"type": {
 						"type": "intrinsic",
-						"name": "unknown"
+						"name": "any"
 					}
 				},
 				{
@@ -234,7 +234,7 @@
 							"fileName": "toolbar/toolbar.component.ts",
 							"line": 32,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/toolbar/toolbar.component.ts#L32"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/toolbar/toolbar.component.ts#L32"
 						}
 					],
 					"type": {
@@ -261,7 +261,7 @@
 					"fileName": "toolbar/toolbar.component.ts",
 					"line": 12,
 					"character": 13,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/toolbar/toolbar.component.ts#L12"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/toolbar/toolbar.component.ts#L12"
 				}
 			]
 		},
@@ -310,7 +310,7 @@
 							"fileName": "header/header.component.ts",
 							"line": 23,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/header/header.component.ts#L23"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/header/header.component.ts#L23"
 						}
 					],
 					"type": {
@@ -357,7 +357,7 @@
 							"fileName": "header/header.component.ts",
 							"line": 47,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/header/header.component.ts#L47"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/header/header.component.ts#L47"
 						}
 					],
 					"type": {
@@ -396,7 +396,7 @@
 							"fileName": "header/header.component.ts",
 							"line": 39,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/header/header.component.ts#L39"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/header/header.component.ts#L39"
 						}
 					],
 					"type": {
@@ -435,7 +435,7 @@
 							"fileName": "header/header.component.ts",
 							"line": 31,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/header/header.component.ts#L31"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/header/header.component.ts#L31"
 						}
 					],
 					"type": {
@@ -461,7 +461,7 @@
 					"fileName": "header/header.component.ts",
 					"line": 16,
 					"character": 13,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/header/header.component.ts#L16"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/header/header.component.ts#L16"
 				}
 			],
 			"implementedTypes": [
@@ -492,7 +492,7 @@
 					"fileName": "header/header.module.ts",
 					"line": 14,
 					"character": 13,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/header/header.module.ts#L14"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/header/header.module.ts#L14"
 				}
 			]
 		},
@@ -515,7 +515,7 @@
 					"fileName": "popover/popover.component.ts",
 					"line": 11,
 					"character": 13,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.component.ts#L11"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/popover/popover.component.ts#L11"
 				}
 			]
 		},
@@ -564,7 +564,7 @@
 							"fileName": "popover/popover.directive.ts",
 							"line": 32,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.directive.ts#L32"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/popover/popover.directive.ts#L32"
 						}
 					],
 					"type": {
@@ -603,7 +603,7 @@
 							"fileName": "popover/popover.directive.ts",
 							"line": 39,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.directive.ts#L39"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/popover/popover.directive.ts#L39"
 						}
 					],
 					"type": {
@@ -642,7 +642,7 @@
 							"fileName": "popover/popover.directive.ts",
 							"line": 25,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.directive.ts#L25"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/popover/popover.directive.ts#L25"
 						}
 					],
 					"type": {
@@ -688,7 +688,7 @@
 							"fileName": "popover/popover.directive.ts",
 							"line": 46,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.directive.ts#L46"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/popover/popover.directive.ts#L46"
 						}
 					],
 					"type": {
@@ -714,7 +714,7 @@
 					"fileName": "popover/popover.directive.ts",
 					"line": 17,
 					"character": 13,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.directive.ts#L17"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/popover/popover.directive.ts#L17"
 				}
 			],
 			"implementedTypes": [
@@ -751,7 +751,7 @@
 					"fileName": "popover/popover.module.ts",
 					"line": 17,
 					"character": 13,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.module.ts#L17"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/popover/popover.module.ts#L17"
 				}
 			]
 		},
@@ -781,7 +781,7 @@
 							"fileName": "popover/popover.service.ts",
 							"line": 16,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.service.ts#L16"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/popover/popover.service.ts#L16"
 						}
 					],
 					"signatures": [
@@ -825,7 +825,7 @@
 							"fileName": "popover/popover.service.ts",
 							"line": 23,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.service.ts#L23"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/popover/popover.service.ts#L23"
 						}
 					],
 					"signatures": [
@@ -878,7 +878,7 @@
 					"fileName": "popover/popover.service.ts",
 					"line": 10,
 					"character": 13,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/popover/popover.service.ts#L10"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/popover/popover.service.ts#L10"
 				}
 			]
 		},
@@ -927,7 +927,7 @@
 							"fileName": "side-navigation/side-navigation.component.ts",
 							"line": 32,
 							"character": 14,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/side-navigation.component.ts#L32"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/side-navigation.component.ts#L32"
 						}
 					],
 					"type": {
@@ -974,7 +974,7 @@
 							"fileName": "side-navigation/side-navigation.component.ts",
 							"line": 39,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/side-navigation.component.ts#L39"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/side-navigation.component.ts#L39"
 						}
 					],
 					"type": {
@@ -998,7 +998,7 @@
 							"fileName": "side-navigation/side-navigation.component.ts",
 							"line": 50,
 							"character": 17,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/side-navigation.component.ts#L50"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/side-navigation.component.ts#L50"
 						}
 					],
 					"setSignature": {
@@ -1066,7 +1066,7 @@
 					"fileName": "side-navigation/side-navigation.component.ts",
 					"line": 24,
 					"character": 13,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/side-navigation.component.ts#L24"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/side-navigation.component.ts#L24"
 				}
 			],
 			"implementedTypes": [
@@ -1097,7 +1097,7 @@
 					"fileName": "side-navigation/side-navigation.module.ts",
 					"line": 27,
 					"character": 13,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/side-navigation.module.ts#L27"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/side-navigation.module.ts#L27"
 				}
 			]
 		},
@@ -1146,7 +1146,7 @@
 							"fileName": "table/table-column.directive.ts",
 							"line": 87,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L87"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L87"
 						}
 					],
 					"type": {
@@ -1185,7 +1185,7 @@
 							"fileName": "table/table-column.directive.ts",
 							"line": 94,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L94"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L94"
 						}
 					],
 					"type": {
@@ -1223,7 +1223,7 @@
 							"fileName": "table/table-column.directive.ts",
 							"line": 73,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L73"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L73"
 						}
 					],
 					"type": {
@@ -1262,7 +1262,7 @@
 							"fileName": "table/table-column.directive.ts",
 							"line": 17,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L17"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L17"
 						}
 					],
 					"type": {
@@ -1300,7 +1300,7 @@
 							"fileName": "table/table-column.directive.ts",
 							"line": 24,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L24"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L24"
 						}
 					],
 					"type": {
@@ -1338,7 +1338,7 @@
 							"fileName": "table/table-column.directive.ts",
 							"line": 122,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L122"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L122"
 						}
 					],
 					"type": {
@@ -1384,7 +1384,7 @@
 							"fileName": "table/table-column.directive.ts",
 							"line": 66,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L66"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L66"
 						}
 					],
 					"type": {
@@ -1423,7 +1423,7 @@
 							"fileName": "table/table-column.directive.ts",
 							"line": 38,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L38"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L38"
 						}
 					],
 					"type": {
@@ -1462,7 +1462,7 @@
 							"fileName": "table/table-column.directive.ts",
 							"line": 115,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L115"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L115"
 						}
 					],
 					"type": {
@@ -1501,7 +1501,7 @@
 							"fileName": "table/table-column.directive.ts",
 							"line": 80,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L80"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L80"
 						}
 					],
 					"type": {
@@ -1540,7 +1540,7 @@
 							"fileName": "table/table-column.directive.ts",
 							"line": 52,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L52"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L52"
 						}
 					],
 					"type": {
@@ -1579,7 +1579,7 @@
 							"fileName": "table/table-column.directive.ts",
 							"line": 45,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L45"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L45"
 						}
 					],
 					"type": {
@@ -1618,7 +1618,7 @@
 							"fileName": "table/table-column.directive.ts",
 							"line": 59,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L59"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L59"
 						}
 					],
 					"type": {
@@ -1657,7 +1657,7 @@
 							"fileName": "table/table-column.directive.ts",
 							"line": 101,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L101"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L101"
 						}
 					],
 					"type": {
@@ -1696,7 +1696,7 @@
 							"fileName": "table/table-column.directive.ts",
 							"line": 108,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L108"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L108"
 						}
 					],
 					"type": {
@@ -1742,7 +1742,7 @@
 							"fileName": "table/table-column.directive.ts",
 							"line": 129,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L129"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L129"
 						}
 					],
 					"type": {
@@ -1788,7 +1788,7 @@
 							"fileName": "table/table-column.directive.ts",
 							"line": 31,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L31"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L31"
 						}
 					],
 					"type": {
@@ -1826,7 +1826,7 @@
 							"fileName": "table/table-column.directive.ts",
 							"line": 136,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L136"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L136"
 						}
 					],
 					"type": {
@@ -1873,7 +1873,7 @@
 					"fileName": "table/table-column.directive.ts",
 					"line": 11,
 					"character": 13,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table-column.directive.ts#L11"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table-column.directive.ts#L11"
 				}
 			]
 		},
@@ -1922,7 +1922,7 @@
 							"fileName": "table/table.component.ts",
 							"line": 109,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L109"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table.component.ts#L109"
 						}
 					],
 					"type": {
@@ -1964,7 +1964,7 @@
 							"fileName": "table/table.component.ts",
 							"line": 102,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L102"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table.component.ts#L102"
 						}
 					],
 					"type": {
@@ -2010,7 +2010,7 @@
 							"fileName": "table/table.component.ts",
 							"line": 60,
 							"character": 14,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L60"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table.component.ts#L60"
 						}
 					],
 					"type": {
@@ -2058,7 +2058,7 @@
 							"fileName": "table/table.component.ts",
 							"line": 81,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L81"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table.component.ts#L81"
 						}
 					],
 					"type": {
@@ -2097,7 +2097,7 @@
 							"fileName": "table/table.component.ts",
 							"line": 74,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L74"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table.component.ts#L74"
 						}
 					],
 					"type": {
@@ -2136,7 +2136,7 @@
 							"fileName": "table/table.component.ts",
 							"line": 67,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L67"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table.component.ts#L67"
 						}
 					],
 					"type": {
@@ -2192,7 +2192,7 @@
 							"fileName": "table/table.component.ts",
 							"line": 88,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L88"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table.component.ts#L88"
 						}
 					],
 					"type": {
@@ -2231,7 +2231,7 @@
 							"fileName": "table/table.component.ts",
 							"line": 95,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L95"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table.component.ts#L95"
 						}
 					],
 					"type": {
@@ -2251,7 +2251,7 @@
 							"fileName": "table/table.component.ts",
 							"line": 194,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L194"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table.component.ts#L194"
 						}
 					],
 					"setSignature": {
@@ -2310,7 +2310,7 @@
 							"fileName": "table/table.component.ts",
 							"line": 181,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L181"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table.component.ts#L181"
 						}
 					],
 					"setSignature": {
@@ -2378,7 +2378,7 @@
 							"fileName": "table/table.component.ts",
 							"line": 123,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L123"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table.component.ts#L123"
 						}
 					],
 					"setSignature": {
@@ -2436,7 +2436,7 @@
 							"fileName": "table/table.component.ts",
 							"line": 141,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L141"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table.component.ts#L141"
 						}
 					],
 					"setSignature": {
@@ -2494,7 +2494,7 @@
 							"fileName": "table/table.component.ts",
 							"line": 159,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L159"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table.component.ts#L159"
 						}
 					],
 					"setSignature": {
@@ -2574,7 +2574,7 @@
 					"fileName": "table/table.component.ts",
 					"line": 44,
 					"character": 13,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.component.ts#L44"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table.component.ts#L44"
 				}
 			],
 			"typeParameters": [
@@ -2620,7 +2620,7 @@
 					"fileName": "table/table.module.ts",
 					"line": 40,
 					"character": 13,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/table.module.ts#L40"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/table.module.ts#L40"
 				}
 			]
 		},
@@ -2641,9 +2641,9 @@
 			"sources": [
 				{
 					"fileName": "toolbar/toolbar.module.ts",
-					"line": 15,
+					"line": 16,
 					"character": 13,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/toolbar/toolbar.module.ts#L15"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/toolbar/toolbar.module.ts#L16"
 				}
 			]
 		},
@@ -2692,7 +2692,7 @@
 							"fileName": "tooltip/tooltip.component.ts",
 							"line": 26,
 							"character": 13,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/tooltip/tooltip.component.ts#L26"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/tooltip/tooltip.component.ts#L26"
 						}
 					],
 					"type": {
@@ -2715,7 +2715,7 @@
 					"fileName": "tooltip/tooltip.component.ts",
 					"line": 20,
 					"character": 13,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/tooltip/tooltip.component.ts#L20"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/tooltip/tooltip.component.ts#L20"
 				}
 			]
 		},
@@ -2764,7 +2764,7 @@
 							"fileName": "tooltip/tooltip.directive.ts",
 							"line": 22,
 							"character": 29,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/tooltip/tooltip.directive.ts#L22"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/tooltip/tooltip.directive.ts#L22"
 						}
 					],
 					"type": {
@@ -2787,7 +2787,7 @@
 					"fileName": "tooltip/tooltip.directive.ts",
 					"line": 13,
 					"character": 13,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/tooltip/tooltip.directive.ts#L13"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/tooltip/tooltip.directive.ts#L13"
 				}
 			],
 			"implementedTypes": [
@@ -2818,7 +2818,7 @@
 					"fileName": "tooltip/tooltip.module.ts",
 					"line": 16,
 					"character": 13,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/tooltip/tooltip.module.ts#L16"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/tooltip/tooltip.module.ts#L16"
 				}
 			]
 		},
@@ -2858,7 +2858,7 @@
 							"fileName": "side-navigation/models/menu-item.model.ts",
 							"line": 34,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L34"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L34"
 						}
 					],
 					"type": {
@@ -2887,7 +2887,7 @@
 							"fileName": "side-navigation/models/menu-item.model.ts",
 							"line": 18,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L18"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L18"
 						}
 					],
 					"type": {
@@ -2916,7 +2916,7 @@
 							"fileName": "side-navigation/models/menu-item.model.ts",
 							"line": 26,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L26"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L26"
 						}
 					],
 					"type": {
@@ -2945,7 +2945,7 @@
 							"fileName": "side-navigation/models/menu-item.model.ts",
 							"line": 30,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L30"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L30"
 						}
 					],
 					"type": {
@@ -2972,7 +2972,7 @@
 							"fileName": "side-navigation/models/menu-item.model.ts",
 							"line": 14,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L14"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L14"
 						}
 					],
 					"type": {
@@ -3001,7 +3001,7 @@
 							"fileName": "side-navigation/models/menu-item.model.ts",
 							"line": 38,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L38"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L38"
 						}
 					],
 					"type": {
@@ -3034,7 +3034,7 @@
 							"fileName": "side-navigation/models/menu-item.model.ts",
 							"line": 22,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L22"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L22"
 						}
 					],
 					"type": {
@@ -3061,7 +3061,7 @@
 							"fileName": "side-navigation/models/menu-item.model.ts",
 							"line": 10,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L10"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L10"
 						}
 					],
 					"type": {
@@ -3090,7 +3090,7 @@
 					"fileName": "side-navigation/models/menu-item.model.ts",
 					"line": 6,
 					"character": 17,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L6"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/models/menu-item.model.ts#L6"
 				}
 			]
 		},
@@ -3130,7 +3130,7 @@
 							"fileName": "side-navigation/models/sub-menu.model.ts",
 							"line": 20,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/sub-menu.model.ts#L20"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/models/sub-menu.model.ts#L20"
 						}
 					],
 					"type": {
@@ -3157,7 +3157,7 @@
 							"fileName": "side-navigation/models/sub-menu.model.ts",
 							"line": 12,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/sub-menu.model.ts#L12"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/models/sub-menu.model.ts#L12"
 						}
 					],
 					"type": {
@@ -3186,7 +3186,7 @@
 							"fileName": "side-navigation/models/sub-menu.model.ts",
 							"line": 16,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/sub-menu.model.ts#L16"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/models/sub-menu.model.ts#L16"
 						}
 					],
 					"type": {
@@ -3213,7 +3213,7 @@
 							"fileName": "side-navigation/models/sub-menu.model.ts",
 							"line": 8,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/sub-menu.model.ts#L8"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/models/sub-menu.model.ts#L8"
 						}
 					],
 					"type": {
@@ -3238,7 +3238,7 @@
 					"fileName": "side-navigation/models/sub-menu.model.ts",
 					"line": 4,
 					"character": 17,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/side-navigation/models/sub-menu.model.ts#L4"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/side-navigation/models/sub-menu.model.ts#L4"
 				}
 			]
 		},
@@ -3278,7 +3278,7 @@
 							"fileName": "table/models/fetch-args.model.ts",
 							"line": 8,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L8"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L8"
 						}
 					],
 					"type": {
@@ -3305,7 +3305,7 @@
 							"fileName": "table/models/fetch-args.model.ts",
 							"line": 28,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L28"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L28"
 						}
 					],
 					"type": {
@@ -3334,7 +3334,7 @@
 							"fileName": "table/models/fetch-args.model.ts",
 							"line": 13,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L13"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L13"
 						}
 					],
 					"type": {
@@ -3364,7 +3364,7 @@
 							"fileName": "table/models/fetch-args.model.ts",
 							"line": 23,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L23"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L23"
 						}
 					],
 					"type": {
@@ -3393,7 +3393,7 @@
 							"fileName": "table/models/fetch-args.model.ts",
 							"line": 18,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L18"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L18"
 						}
 					],
 					"type": {
@@ -3418,7 +3418,7 @@
 											"fileName": "table/models/fetch-args.model.ts",
 											"line": 18,
 											"character": 28,
-											"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L18"
+											"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L18"
 										}
 									],
 									"type": {
@@ -3446,7 +3446,7 @@
 											"fileName": "table/models/fetch-args.model.ts",
 											"line": 18,
 											"character": 13,
-											"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L18"
+											"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L18"
 										}
 									],
 									"type": {
@@ -3467,7 +3467,7 @@
 											"fileName": "table/models/fetch-args.model.ts",
 											"line": 18,
 											"character": 50,
-											"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L18"
+											"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L18"
 										}
 									],
 									"type": {
@@ -3491,7 +3491,7 @@
 									"fileName": "table/models/fetch-args.model.ts",
 									"line": 18,
 									"character": 11,
-									"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L18"
+									"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L18"
 								}
 							]
 						}
@@ -3515,7 +3515,7 @@
 					"fileName": "table/models/fetch-args.model.ts",
 					"line": 4,
 					"character": 17,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L4"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L4"
 				}
 			]
 		},
@@ -3555,7 +3555,7 @@
 							"fileName": "table/models/fetch-args.model.ts",
 							"line": 8,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L8"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L8"
 						}
 					],
 					"type": {
@@ -3586,7 +3586,7 @@
 							"fileName": "table/models/fetch-args.model.ts",
 							"line": 28,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L28"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L28"
 						}
 					],
 					"type": {
@@ -3619,7 +3619,7 @@
 							"fileName": "table/models/fetch-args.model.ts",
 							"line": 13,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L13"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L13"
 						}
 					],
 					"type": {
@@ -3653,7 +3653,7 @@
 							"fileName": "table/models/fetch-args.model.ts",
 							"line": 23,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L23"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L23"
 						}
 					],
 					"type": {
@@ -3686,7 +3686,7 @@
 							"fileName": "table/models/fetch-args.model.ts",
 							"line": 38,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L38"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L38"
 						}
 					],
 					"type": {
@@ -3711,7 +3711,7 @@
 											"fileName": "table/models/fetch-args.model.ts",
 											"line": 38,
 											"character": 28,
-											"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L38"
+											"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L38"
 										}
 									],
 									"type": {
@@ -3739,7 +3739,7 @@
 											"fileName": "table/models/fetch-args.model.ts",
 											"line": 38,
 											"character": 13,
-											"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L38"
+											"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L38"
 										}
 									],
 									"type": {
@@ -3762,7 +3762,7 @@
 									"fileName": "table/models/fetch-args.model.ts",
 									"line": 38,
 									"character": 11,
-									"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L38"
+									"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L38"
 								}
 							]
 						}
@@ -3786,7 +3786,7 @@
 					"fileName": "table/models/fetch-args.model.ts",
 					"line": 34,
 					"character": 17,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L34"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/fetch-args.model.ts#L34"
 				}
 			],
 			"extendedTypes": [
@@ -3843,7 +3843,7 @@
 							"fileName": "table/models/paging-token.model.ts",
 							"line": 13,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L13"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L13"
 						}
 					],
 					"type": {
@@ -3871,7 +3871,7 @@
 							"fileName": "table/models/paging-token.model.ts",
 							"line": 18,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L18"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L18"
 						}
 					],
 					"type": {
@@ -3898,7 +3898,7 @@
 							"fileName": "table/models/paging-token.model.ts",
 							"line": 8,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L8"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L8"
 						}
 					],
 					"type": {
@@ -3922,7 +3922,7 @@
 					"fileName": "table/models/paging-token.model.ts",
 					"line": 4,
 					"character": 17,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L4"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L4"
 				}
 			],
 			"typeParameters": [
@@ -3976,7 +3976,7 @@
 							"fileName": "table/models/paging-token.model.ts",
 							"line": 13,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L13"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L13"
 						}
 					],
 					"type": {
@@ -4009,7 +4009,7 @@
 							"fileName": "table/models/paging-token.model.ts",
 							"line": 28,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L28"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L28"
 						}
 					],
 					"type": {
@@ -4041,7 +4041,7 @@
 							"fileName": "table/models/paging-token.model.ts",
 							"line": 8,
 							"character": 4,
-							"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L8"
+							"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L8"
 						}
 					],
 					"type": {
@@ -4070,7 +4070,7 @@
 					"fileName": "table/models/paging-token.model.ts",
 					"line": 24,
 					"character": 17,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L24"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L24"
 				}
 			],
 			"typeParameters": [
@@ -4116,7 +4116,7 @@
 					"fileName": "table/models/table-filter-type.model.ts",
 					"line": 4,
 					"character": 12,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/table-filter-type.model.ts#L4"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/table-filter-type.model.ts#L4"
 				}
 			],
 			"type": {
@@ -4152,7 +4152,7 @@
 					"fileName": "table/models/paging-token.model.ts",
 					"line": 34,
 					"character": 13,
-					"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L34"
+					"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/table/models/paging-token.model.ts#L34"
 				}
 			],
 			"signatures": [
@@ -4249,7 +4249,7 @@
 			"fileName": "src/docs-entry.ts",
 			"line": 1,
 			"character": 0,
-			"url": "https://github.com/AyaHealthcare/Applications/blob/9e85af4f899/AngularLibrary/projects/controls/src/docs-entry.ts#L1"
+			"url": "https://github.com/AyaHealthcare/Applications/blob/74ca0e4c5ad/AngularLibrary/projects/controls/src/docs-entry.ts#L1"
 		}
 	]
 }
